@@ -21,7 +21,7 @@ from gtts import gTTS
 from io import BytesIO
 
 # Ensure the Hugging Face API token is set
-os.environ['HF_TOKEN'] = "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" 
+os.environ['HF_TOKEN'] = "Your_HuggingFace_Token" 
 
 # Set up the Hugging Face Inference API endpoint and headers
 HUGGING_FACE_API_URL = "https://api-inference.huggingface.co/models/microsoft/Phi-3-mini-4k-instruct"
