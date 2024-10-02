@@ -38,9 +38,9 @@ road_data = {}
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # API Keys
-GOOGLE_API_KEY = 'AIzaSyAPLSrMSSJeLbGclmo2egplbSlXx5O0aLs'
-WEATHER_API_KEY = '6604ce4c721b6cb814ae3cdf3d9b4e3b'
-HERE_API_KEY = '_BYz40khhNXEViKk3-UKR4hbpahRTj8Am_hN0JODAno'
+GOOGLE_API_KEY = 'Your_Google_Cloud_API_Key'
+WEATHER_API_KEY = 'Your_Weather_API_KEY'
+HERE_API_KEY = 'Your_HERE_API_KEY'
 
 # Global variables
 road_data = {}
