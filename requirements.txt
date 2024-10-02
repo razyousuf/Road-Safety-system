@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+scikit-learn==1.3.2
+joblib
+pandas
+numpy
+requests
+pydantic
+pytest
+huggingface_hub
+gtts
+folium
+polyline
