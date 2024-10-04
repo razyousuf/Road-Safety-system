@@ -69,8 +69,8 @@ The Random Forest model is trained in **Google Colab**. To train the model:
 
 Download or clone the repository to your local environment and navigate to the project directory. Example code for cloning:
 ```bash
-git clone https://github.com/yourusername/road-safety-ai.git
-cd road-safety-ai
+git clone https://github.com/razyousuf/Road-Safety-system.git
+cd road-safety-system
 ```
 ### 3. Set Up API Keys
 
@@ -126,7 +126,7 @@ curl -X POST "http://127.0.0.1:8000/predict-from-coordinates" \
 
 To generate real-time text or audio safety alerts, make an API request with location data to receive a contextual recommendation based on the predicted risk.
 ```bash
-curl -X POST "http://127.0.0.1:8000/generate-alert" \
+curl -X POST "http://127.0.0.1:8000/generative-response" \
 -H "Content-Type: application/json" \
 -d '{"latitude": <lat>, "longitude": <lon>}'
 ```
@@ -134,7 +134,7 @@ curl -X POST "http://127.0.0.1:8000/generate-alert" \
 
 For route-based accident risk prediction, provide origin and destination points, and the system will assess the accident risk along the specified route, delivering safety alerts.
 ```bash
-curl -X POST "http://127.0.0.1:8000/route-prediction" \
+curl -X POST "http://127.0.0.1:8000/route-accident-heatmap" \
 -H "Content-Type: application/json" \
 -d '{"origin": "<start_point>", "destination": "<end_point>"}'
 ```
