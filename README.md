@@ -61,7 +61,7 @@ Key dependencies include:
 
 The Random Forest model is trained in **Google Colab**. To train the model:
 
-1. Upload the [dataset]([https://openai.com](https://www.kaggle.com/datasets/syedibrahim03/road-accidents-dataset/data)) to your Jupiter Notebook or Google Colab environment .
+1. Upload the [Road Accident Dataset](https://www.kaggle.com/datasets/syedibrahim03/road-accidents-dataset/data) to your Jupiter Notebook or Google Colab environment .
 2. Run the provided notebook to preprocess the data and train the model.
 3. Save the trained model as a `.joblib` and other required artifacts for use in FastAPI.
 
@@ -114,11 +114,6 @@ To access FastAPI's user interface in your web browser, navigate to `http://127.
 Simply select the endpoint you want to test (e.g., `/predict-from-coordinates`), enter the required data, and the model will provide its predictions. See figure below:
 
 ![API UI Interface](./images/ui.png)
-
-
-<p align="center">
-  <img src="./images/ui.png" alt="API UI Interface" width="400" height="300" style="margin: 20px;">
-</p>
 
 ### Accident Severity Prediction
 
