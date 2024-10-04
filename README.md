@@ -102,7 +102,6 @@ Start the FastAPI server with typing the folloing command in the environment ter
 uvicorn main:app --reload
 ```
 
-You can test and visualize the responses directly on this interactive FastAPI documentation page.
 ---
 
 ## Usage
