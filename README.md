@@ -102,16 +102,17 @@ Start the FastAPI server with typing the folloing command in the environment ter
 uvicorn main:app --reload
 ```
 
-### 7. Access FastAPI UI for Input
-
-To access FastAPI's user interface in your web browser, navigate to `http://127.0.0.1:8000/docs` after starting the server. This interface allows you to interact with the API by providing inputs such as location coordinates and receiving real-time predictions from the predictive model and safety recommendations from the generative AI.
-
-Simply select the endpoint you want to test (e.g., `/predict-from-coordinates`), enter the required data, and the model will provide its predictions.
-
 You can test and visualize the responses directly on this interactive FastAPI documentation page.
 ---
 
 ## Usage
+
+### Access FastAPI UI Interface
+
+To access FastAPI's user interface in your web browser, navigate to `http://127.0.0.1:8000/docs` after starting the server. This interface allows you to interact with the API by providing inputs such as location coordinates and receiving real-time predictions from the predictive model and safety recommendations from the generative AI.
+
+Simply select the endpoint you want to test (e.g., `/predict-from-coordinates`), enter the required data, and the model will provide its predictions. See figure below:
+![Road Safety AI](./images/ui.png)
 
 ### Accident Severity Prediction
 
