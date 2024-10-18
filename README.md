@@ -45,14 +45,15 @@ pip install -r requirements.txt
 
 Key dependencies include:
 
-- Python 3.x
-- FastAPI
-- scikit-learn
-- OpenAI API
-- OpenWeatherMap API
-- HERE API
-- Google Maps API
-
+- fastapi
+- uvicorn
+- scikit-learn==1.3.2
+- joblib
+- pandas
+- huggingface_hub
+- gtts
+- folium
+- polyline
 ---
 
 ## Setup Instructions
