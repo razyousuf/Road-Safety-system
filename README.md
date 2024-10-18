@@ -152,7 +152,7 @@ curl -X POST "http://127.0.0.1:8000/route-accident-heatmap" \
 
 ## License
 
-Yet to be approved
+Feel free to use with reference
 
 ---
 
