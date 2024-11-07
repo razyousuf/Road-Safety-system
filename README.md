@@ -123,6 +123,7 @@ curl -X POST "http://127.0.0.1:8000/predict-from-coordinates" \
 -H "Content-Type: application/json" \
 -d '{"latitude": <lat>, "longitude": <lon>}'
 ```
+![API UI Predict](./images/fig-3-8a.png)
 ### Generate Safety Alerts
 
 To generate real-time text or audio safety alerts, make an API request with location data to receive a contextual recommendation based on the predicted risk.
@@ -131,6 +132,7 @@ curl -X POST "http://127.0.0.1:8000/generative-response" \
 -H "Content-Type: application/json" \
 -d '{"latitude": <lat>, "longitude": <lon>}'
 ```
+![API UI Safety Alert](./images/fig-4-1b.png)
 ### Route Risk Prediction
 
 For route-based accident risk prediction, provide origin and destination points, and the system will assess the accident risk along the specified route, delivering safety alerts.
@@ -139,6 +141,7 @@ curl -X POST "http://127.0.0.1:8000/route-accident-heatmap" \
 -H "Content-Type: application/json" \
 -d '{"origin": "<start_point>", "destination": "<end_point>"}'
 ```
+![API UI Predict along the route](./images/route.jpg)
 ---
 
 ## Future Enhancements
