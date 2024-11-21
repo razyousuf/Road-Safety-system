@@ -94,8 +94,9 @@ To explore the data more, you can use the Power BI desktop using a similar dashb
 
 ### 5. Data Preprocessing
 
-Implement the preprocessing steps taken in the **RF_Model_Training_Code.ipynb**  to clean and prepare the data for the predictive before training the predictive model, and the **utils.py** script for generative modle. 
+Implement the preprocessing steps taken in the [RF_Model_Training_Code.ipynb](https://colab.research.google.com/drive/1Hig7Wbfb8I9o1gigt0sps0cfHO39l6Ec?usp=sharing)  to clean and prepare the data for the predictive before training the predictive model, and the **utils.py** script for generative modle. 
 ![Google Colab](./images/fig-3-2.png)
+And
 ![Fast API](./images/append-4.png)
 
 
