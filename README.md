@@ -90,6 +90,7 @@ GOOGLE_MAPS_API_KEY=your_google_maps_key
 ### 4. Data Exploration in Power BI
 To explore the data more, you can use the Power BI desktop using a similar dashboard as below.
 ![Exploraiton](./images/fig-3-2b.png)
+And
 ![Exploration](./images/fig-3-2c.png)
 
 ### 5. Data Preprocessing
