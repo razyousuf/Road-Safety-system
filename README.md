@@ -87,16 +87,23 @@ HERE_API_KEY=your_here_key
 GOOGLE_MAPS_API_KEY=your_google_maps_key
 ```
 
-### 4. Data Preprocessing
+### 4. Data Exploration in Power BI
+To explore the data more, you can use the Power BI desktop using a similar dashboard as below.
+![Exploraiton](./images/fig-3-2b.png)
+![Exploration](./images/fig-3-2c.png)
 
-Use the preprocessing **utils.py** script to clean and prepare the data for the predictive and generative modles.
+### 5. Data Preprocessing
+
+Implement the preprocessing steps taken in the **RF_Model_Training_Code.ipynb**  to clean and prepare the data for the predictive before training the predictive model, and the **utils.py** script for generative modle. 
+![Google Colab](./images/fig-3-2.png)
+![Fast API](./images/append-4.png)
 
 
-### 5. Implement the Generative AI Model
+### 6. Implement the Generative AI Model
 
 To set up the generative AI model for generating alerts, initialize the Phi-3-mini model for real-time safety alert generation.
 
-### 6. FastAPI Implementation
+### 7. FastAPI Implementation
 
 Start the FastAPI server with typing the folloing command in the environment terminal.
 ```bash
